@@ -14,4 +14,9 @@ int Check (int a, int k, int l)
     }
     return count;
 }
-Console.WriteLine(Check(125, 4, 10));
+
+Console.Write("n = ");
+int x = int.Parse(Console.ReadLine()!);  //Предлагает ввести пользователю количество натуральных чисел
+
+Console.Write("Count = ");
+Console.WriteLine(Check(x, 3, 7));
