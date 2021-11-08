@@ -3,6 +3,8 @@
 //делятся хотябы на k или на l
 //не делятся на (k + l)
 
+void A()
+{
 int Check (int a, int k, int l)
 {
     int count = 0;
@@ -20,3 +22,5 @@ int x = int.Parse(Console.ReadLine()!);  //Предлагает ввести п�
 
 Console.Write("Count = ");
 Console.WriteLine(Check(x, 3, 7));
+}
+A();
